@@ -1,4 +1,4 @@
-# Netflix Movies and TV Shows Data Analysis using SQL
+# Netflix Movies and TV Shows Data Analysis using SQL and Data visulization using matplotlib
 
 ![](https://github.com/najirh/netflix_sql_project/blob/main/logo.png)
 
@@ -255,6 +255,16 @@ GROUP BY category;
 ```
 
 **Objective:** Categorize content as 'Bad' if it contains 'kill' or 'violence' and 'Good' otherwise. Count the number of items in each category.
+
+**Objective:**The histogram above visualizes the distribution of movie durations in the dataset.
+
+X-axis: Duration of movies in minutes.
+
+Y-axis: Number of movies for each duration range.
+
+Color: Bars are displayed in purple for visual clarity
+
+<img width="800" height="600" alt="movies_druaton_hist" src="https://github.com/user-attachments/assets/72200c70-da4f-4272-9d9c-6861712a94f7" />
 
 ## Findings and Conclusion
 
