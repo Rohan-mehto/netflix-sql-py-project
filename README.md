@@ -11,6 +11,7 @@ This project involves a comprehensive analysis of Netflix's movies and TV shows 
 - Identify the most common ratings for movies and TV shows.
 - List and analyze content based on release years, countries, and durations.
 - Explore and categorize content based on specific criteria and keywords.
+- Data visualization with the help of different graph
 
 ## Dataset
 
@@ -256,7 +257,7 @@ GROUP BY category;
 
 **Objective:** Categorize content as 'Bad' if it contains 'kill' or 'violence' and 'Good' otherwise. Count the number of items in each category.
 
-**Objective:**The histogram above visualizes the distribution of movie durations in the dataset.
+**Data visualization in Histogram:**The histogram below visualizes the distribution of movie durations in the dataset.
 
 X-axis: Duration of movies in minutes.
 
@@ -265,6 +266,81 @@ Y-axis: Number of movies for each duration range.
 Color: Bars are displayed in purple for visual clarity
 
 <img width="800" height="600" alt="movies_druaton_hist" src="https://github.com/user-attachments/assets/72200c70-da4f-4272-9d9c-6861712a94f7" />
+
+
+**Data visualization in Line :**Comparison of Movies and TV Shows Released Over the Years
+The line chart above compares the release trends of movies and TV shows over time.
+
+X-axis: Release year (from 1940 to 2022).
+
+Y-axis (left): Number of releases in each year.
+
+Blue Line: Number of TV shows released per year.
+
+Orange Line: Number of movies released per year.
+
+<img width="1200" height="500" alt="movies_tv_shows" src="https://github.com/user-attachments/assets/44cf7f19-ca48-4df2-8146-4e35f71dc4ac" />
+
+**Data visualization in Bar chart :** Movies vs. TV Shows Count
+The bar chart below shows the overall count of movies and TV shows in the dataset.
+
+X-axis: Content type (Movie or TV Show)
+
+Y-axis: Number of titles available
+
+Blue Bar: Represents movies
+
+Orange Bar: Represents TV shows
+
+<img width="600" height="400" alt="movies_vs_tvshows" src="https://github.com/user-attachments/assets/d3553e37-ef31-4189-b7e3-e6ec29c95191" />
+
+
+**Data visualization in pie chart :**Percentage of Content Ratings
+The pie chart below illustrates the distribution of content ratings across all titles in the dataset.
+
+Largest Category:
+
+TV-MA (Mature Audience) — 36.8% of all titles.
+
+Other Major Ratings:
+
+TV-14 — 24.2%
+
+R — 9.9%
+
+TV-PG — 9.7%
+
+PG-13 — 6.0%
+
+Smaller Categories: PG, TV-Y7, TV-Y, TV-G, and others make up the remaining share.
+
+
+<img width="800" height="600" alt="rating_pie_chart" src="https://github.com/user-attachments/assets/2cc4fa1c-a8e3-4eec-8aac-708bc292da57" />
+
+
+**Data visualization in scatter plot :**Release Year vs Number of Shows
+This scatter plot visualizes the number of shows released each year from 1940 to 2022.
+
+X-axis: Release Year
+
+Y-axis: Number of shows released
+
+Red dots: Each dot represents the total count of shows released in a specific year.
+
+<img width="1000" height="600" alt="release_year_scatter" src="https://github.com/user-attachments/assets/e7816f67-e4b1-49a3-8d81-99356ec5b0a3" />
+
+
+**Data visualization in Horizontal Bar graph :** Top 10 Countries with the Most Content
+The horizontal bar chart above displays the top 10 countries producing the highest number of shows and movies in the dataset.
+
+Y-axis: Country name
+
+X-axis: Number of shows and movies produced
+
+Bars are sorted in descending order of content volume.
+
+<img width="1000" height="600" alt="top_10_countries" src="https://github.com/user-attachments/assets/9f887a46-50e6-4ef9-bdfb-40dd717bd0a9" />
+
 
 ## Findings and Conclusion
 
